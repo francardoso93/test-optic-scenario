@@ -1,0 +1,15 @@
+name: cd-dev
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  call-deploy-dev:
+    uses: ./.github/workflows/deploy-job.yml
+    with: 
+      environment: dev
