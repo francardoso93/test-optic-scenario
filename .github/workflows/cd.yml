@@ -1,5 +1,8 @@
 name: cd-dev
 
+permissions:
+  id-token: read
+
 on:
   push:
     branches:
