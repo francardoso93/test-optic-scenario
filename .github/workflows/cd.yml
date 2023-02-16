@@ -1,7 +1,7 @@
 name: cd-dev
 
 permissions:
-  id-token: read-only
+  id-token: write
 
 on:
   push:
