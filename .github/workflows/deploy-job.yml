@@ -6,6 +6,11 @@ on:
       environment:
         required: true
         type: string
+    secrets:
+      gcp_provider_name:
+        required: true
+      gcp_sa_email:
+        required: true
 
 jobs:
   deploy:

@@ -13,3 +13,6 @@ jobs:
     uses: ./.github/workflows/deploy-job.yml
     with: 
       environment: dev
+    secrets:
+      gcp_provider_name: whatever
+      gcp_sa_email: whatever
